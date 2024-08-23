@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge Encriptador de Texto</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  </head>
+  <body>
+    
+    <div class="container">
+      <header class="header">
+        <h1 class="titulo"><strong><em>Encriptador de texto v1.0</em></strong></h1>
+    
+      </header>
+      <img src="/assets/Logo.png" class="logo" alt="logo">
+      <div class="encriptar">
+        <textarea
+          name="texto"
+          class="texto"
+          id="texto"
+          cols="30"
+          rows="10"
+          placeholder="Ingresa el texto aquí"
+        ></textarea>
+
+        <div class="informacion">
+          <img src="/assets/signo.png" class="signo" alt="signo"><p class="informacion__texto"> Solo letras minúsculas y sin acentos.</p>
+        </div>
+        <div class="botones">
+          <button class="boton__encriptar" type="button" onclick="encriptar()">Encriptar</button>
+          <input type="button" class="boton__desencriptar" value="Desencriptar" onclick="desencriptar()"/>
+        </div>
+      </div>
+      <div class="resultado">
+        <h2 class="resultado__texto" id="resultado__texto"></h2>
+        <img src="/assets/Muñeco.png" alt="muñeco" id="muñeco" />
+        <div class="mensaje__resultado" id="mensaje__resultado">
+          <h3 id="titulo__resultado">Ningún mensaje fue encontrado</h3>
+          <p id="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
+          <button class="boton__copiar" type="button" onclick="copiarResultado()" style="display: none;">Copiar</button>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p>Desarrollado por Nicolás Sangrá</p>
+      </footer>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
