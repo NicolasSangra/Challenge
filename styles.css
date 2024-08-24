@@ -275,36 +275,26 @@
   
 
 @media (max-width: 480px) {
+  .header {
+    display: flex;
+    justify-content: flex-start;
+  }
+
   .logo {
     width: 5rem;
     height: 2rem;
-    top: 1rem;
-    left: 1rem;
   }
 
   .titulo {
-    font-size: 1.5rem;
+    display: none;
   }
 
   .texto {
     font-size: 1rem;
   }
 
-  .informacion {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-
-  .signo {
-    width: 0.75rem;
-  }
-
-  .informacion__texto {
-    font-size: 0.65rem;
-  }
-
   .botones {
-    flex-direction: column;
+    flex-direction: row;
     gap: 12px;
   }
 
@@ -315,25 +305,15 @@
   }
 
   .resultado {
-    width: 100%;
-    max-width: none;
-    padding: 0.5rem;
+    padding: 1rem;
   }
 
   .resultado__texto {
     font-size: 1.2rem;
   }
 
-  .mensaje__resultado h3 {
-    font-size: 1.2rem;
-  }
-
-  .mensaje__resultado p {
-    font-size: 0.9rem;
-  }
-
   .boton__copiar {
-    display: block;
+    margin-top: 1rem;
   }
 }
 
