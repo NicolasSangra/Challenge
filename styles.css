@@ -275,9 +275,9 @@
   
 
 @media (max-width: 480px) {
-  .container {
-    display: flex;
-    justify-content: flex-start;
+ .container {
+      display: flex;
+      justify-content: flex-start;
   }
 
   .logo{
