@@ -315,7 +315,6 @@
       height: 30%;
       left: 50%;
       top: 65%;
-      transform: translateX(-50%);
   }
 
   .resultado__texto {
@@ -334,9 +333,7 @@
 
  
   .resultado img{
-    width: 40%;
-    height: 50%;
-    top: 10%;
+    .display: none;
     
   }
  
