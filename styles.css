@@ -279,7 +279,6 @@
  .container {
      display: flex;
      flex-direction: column;
-     height: 100%;
      
   }
 
@@ -289,19 +288,17 @@
 
   .texto {
       left: auto;
-      top: 8rem;
+      top: 2rem;
       width: 80%;
       font-size: 1.2rem;
   }
 
   .informacion {
-      left: 25%;
-      top: 29rem;
+      top: 4rem;
       width: 80%;
   }
 
   .botones {
-      left: 25%;
       top: 30rem;
       width: 80%;
       flex-direction: row;
@@ -309,14 +306,14 @@
   }
 
   .boton__encriptar, .boton__desencriptar {
-      width: 50%;
+      width: auto;
   }
 
   .resultado {
       width: 80%;
       height: 30%;
-      left: 50%;
-      top: 65%;
+      left: auto;
+      top: auto;
       transform: none;
   }
 
