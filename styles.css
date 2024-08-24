@@ -280,30 +280,30 @@
 @media (max-width: 480px) {
  .container {
       display: flex;
-      justify-content: flex-start;
+      flex-direction: column;
   }
 
   .logo{
-    left: 10%;
+    margin-left: 10%;
   }
 
   .texto {
-      left: 25%;
+      left: auto;
       top: 8rem;
-      width: 50%;
-      font-size: 1.5rem;
+      width: 80%;
+      font-size: 1.2rem;
   }
 
   .informacion {
       left: 25%;
       top: 29rem;
-      width: 50%;
+      width: 80%;
   }
 
   .botones {
       left: 25%;
       top: 30rem;
-      width: 50%;
+      width: 80%;
       flex-direction: row;
       align-items: center;
   }
@@ -313,11 +313,11 @@
   }
 
   .resultado {
-      width: 50%;
+      width: 80%;
       height: 30%;
       left: 50%;
       top: 65%;
-      transform: translateX(-50%);
+      transform: none;
   }
 
   .resultado__texto {
@@ -336,9 +336,7 @@
 
  
   .resultado img{
-    width: 40%;
-    height: 50%;
-    top: 10%;
+    display: none;
     
   }
  
