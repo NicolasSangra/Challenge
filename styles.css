@@ -274,71 +274,67 @@
 }
   
 
-@media (max-width: 1200px) {
-  .container {
-      width: 80rem;
-      height: 55rem;
+@media (max-width: 768px) {
+  .logo {
+    width: 5rem;
+    height: 2rem;
+    top: 1rem;
+    left: 1rem;
   }
 
-  .logo{
-    left: 10%;
+  .titulo {
+    font-size: 1.5rem;
   }
 
   .texto {
-      left: 25%;
-      top: 8rem;
-      width: 50%;
-      font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .informacion {
-      left: 25%;
-      top: 29rem;
-      width: 50%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .signo {
+    width: 0.75rem;
+  }
+
+  .informacion__texto {
+    font-size: 0.65rem;
   }
 
   .botones {
-      left: 25%;
-      top: 30rem;
-      width: 50%;
-      flex-direction: row;
-      align-items: center;
+    flex-direction: column;
+    gap: 12px;
   }
 
-  .boton__encriptar, .boton__desencriptar {
-      width: 50%;
+  .boton__encriptar,
+  .boton__desencriptar {
+    width: 100%;
+    font-size: 0.9rem;
   }
 
   .resultado {
-      width: 50%;
-      height: 30%;
-      left: 50%;
-      top: 65%;
-      transform: translateX(-50%);
+    width: 100%;
+    max-width: none;
+    padding: 0.5rem;
   }
 
   .resultado__texto {
-      font-size: 1.2rem;
+    font-size: 1.2rem;
+  }
+
+  .mensaje__resultado h3 {
+    font-size: 1.2rem;
+  }
+
+  .mensaje__resultado p {
+    font-size: 0.9rem;
   }
 
   .boton__copiar {
-    top:64%;
+    display: block;
   }
-
-  .boton__copiar:hover {
-    margin: 0.5%;
-    width: 50%;
-    padding: 3%;
-  }
-
- 
-  .resultado img{
-    width: 40%;
-    height: 50%;
-    top: 10%;
-    
-  }
- 
 }
 
 
