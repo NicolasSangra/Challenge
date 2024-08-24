@@ -274,7 +274,7 @@
 }
   
 
-@media (max-width: 57.5em) {
+@media (max-width: 480px) {
   .container {
       width: 80rem;
       height: 55rem;
