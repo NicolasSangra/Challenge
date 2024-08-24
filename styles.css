@@ -274,50 +274,62 @@
 }
   
 
-@media (max-width: 480px) {
+@media (max-width: 57.5em) {
   .header {
-    display: none;
+      display:none;
   }
-
-  .container{
-      width: 100vw;
-      height: auto;
-  }
-
-  .logo {
-    width: 5rem;
-    height: 2rem;
-  }
-
-  .texto {
-    font-size: 1rem;
-  }
-
-  .botones {
+  .container {
+    display: flex;
     flex-direction: row;
-    gap: 12px;
   }
-
+  .encriptar {
+    width: 100%;
+  }
+  .texto {
+    width: 80%;
+    height: 60%;
+    left: 10%;
+    top: 5%;
+  }
+  .informacion {
+    width: 80%;
+    left: 10%;
+    top: 67%;
+  }
+  .informacion__texto {
+    font-size: 16px;
+  }
+  .botones {
+    width: 80%;
+    left: 10%;
+    top: 70%;
+  }
   .boton__encriptar,
   .boton__desencriptar {
-    width: 100%;
-    font-size: 0.9rem;
+    width: 48%;
+    border-radius: 16px;
   }
-
+  .boton__encriptar:hover,
+  .boton__desencriptar:hover {
+    margin: 0.3%;
+    width: 47.5%;
+    padding: 1.8%;
+  }
   .resultado {
-    padding: 1rem;
+    width: 80%;
+    height: 15%;
+    left: 10%;
+    top: 80%;
   }
-
-  .resultado__texto {
-    font-size: 1.2rem;
+  .mensaje__resultado {
+    width: 100%;
+    top: 5%;
   }
-
-  .boton__copiar {
-    margin-top: 1rem;
-  }
-  .muñeco{
-      display: none;
+  .muñeco {
+    display: none;
+    visibility: hidden;
   }
 }
+
 
 
