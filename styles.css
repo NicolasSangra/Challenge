@@ -283,45 +283,39 @@
      display: flex;
      flex-direction: column;
      align-items: center;
-     hight: 100vh;
+     
      }
-      
-  .logo{
-    margin-left: 10%;
-  }
 
   .texto {
-      left: auto;
-      top: 2rem;
-      width: 80%;
-      font-size: 1.2rem;
+    width: 80%;
+    height: 60%;
+    left: 10%;
+    top: 5%;
   }
 
   .informacion {
-      
-      top: 4rem;
-      width: 80%;
+    width: 80%;
+    left: 10%;
+    top: 67%;
   }
 
   .botones {
       
-      top: auto;
-      width: 80%;
-      flex-direction: row;
-      align-items: center;
+    width: 80%;
+    left: 10%;
+    top: 70%;
   }
 
   .boton__encriptar, .boton__desencriptar {
-      width: auto;
-      margin-bottom:0.5rem;
+      width: 48%;
+      border-radius: 16px;
   }
 
   .resultado {
-      width: 80%;
-      height: auto;
-      left: auto;
-      top: auto;
-      transform: none;
+    width: 80%;
+    height: 15%;
+    left: 10%;
+    top: 80%;
   }
 
   .resultado__texto {
