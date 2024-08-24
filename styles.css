@@ -287,20 +287,18 @@
   .texto {
       left: 25%;
       top: 8rem;
-      width: 50%;
+      width: 80%;
       font-size: 1.5rem;
   }
 
   .informacion {
-      left: 25%;
       top: 29rem;
-      width: 50%;
+      width: 80%;
   }
 
   .botones {
-      left: 25%;
       top: 30rem;
-      width: 50%;
+      width: 80%;
       flex-direction: row;
       align-items: center;
   }
@@ -310,9 +308,8 @@
   }
 
   .resultado {
-      width: 50%;
-      height: 30%;
-      left: 50%;
+      width: 80%;
+      height: 20%;
       top: 65%;
       transform: translateX(-50%);
   }
@@ -333,9 +330,7 @@
 
  
   .resultado img{
-    width: 40%;
-    height: 50%;
-    top: 10%;
+    display:none;
     
   }
  
