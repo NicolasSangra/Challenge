@@ -276,8 +276,8 @@
 
 @media (max-width: 480px) {
   .container {
-      width: 100vW;
-      height: 100vh;
+    display: flex;
+    justify-content: flex-start;
   }
 
   .logo{
