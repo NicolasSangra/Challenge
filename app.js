@@ -27,7 +27,7 @@ function encriptar() {
      
     } 
     else {
-      muñeco.src = "/assets/Muñeco.png";
+      muñeco.src = "assets/Muñeco.png";
       titulo__resultado.textContent = "Ningún mensaje fue encontrado";
       parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
       swal("¡Lo siento!", "Debes ingresar un texto en minúscula y sin acento.", "warning");
@@ -66,7 +66,7 @@ function desencriptar() {
       } 
       
       else {
-        muñeco.src = "/assets/Muñeco.png";
+        muñeco.src = "assets/Muñeco.png";
         titulo__resultado.textContent = "Ningún mensaje fue encontrado";
         parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
         swal("¡Lo siento!", "Debes ingresar el texto en minuscula y sin acento.", "warning");
