@@ -281,11 +281,13 @@
     }
     
   .container {
-      width: 80%;
+      width: 100%;
       height: 100vh;
   }
   
   .logo{
+    diplay: flex;
+    flex-direction: start;
     left: 5%;
   }
 
@@ -312,10 +314,11 @@
 
   .boton__encriptar, .boton__desencriptar {
       width: 50%;
+      display:none;
   }
 
   .resultado {
-      width: 50%;
+      width: 80%;
       height: 30%;
       left: 10%;
       top: 65%;
@@ -331,18 +334,13 @@
   }
 
   .boton__copiar:hover {
-    margin: 0.5%;
-    width: 50%;
-    padding: 3%;
+    display:none;
   }
 
  
   .resultado img{
-    width: 40%;
-    height: 50%;
-    top: 10%;
+    display:none;
   }
- 
 }
      
 
