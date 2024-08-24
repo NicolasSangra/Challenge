@@ -276,17 +276,17 @@
 
 @media (max-width: 480px) {
   .header {
-    display: flex;
-    justify-content: flex-start;
+    display: none;
+  }
+
+  .container{
+      width: 100vw;
+      height: auto;
   }
 
   .logo {
     width: 5rem;
     height: 2rem;
-  }
-
-  .titulo {
-    display: none;
   }
 
   .texto {
@@ -314,6 +314,9 @@
 
   .boton__copiar {
     margin-top: 1rem;
+  }
+  .muñeco{
+      display: none;
   }
 }
 
