@@ -286,19 +286,21 @@
     margin-left: 10%;
   }
 
-  .texto {
-      left: auto;
-      top: 2rem;
+   .texto {
+     
+      top: 8rem;
       width: 80%;
       font-size: 1.2rem;
   }
 
   .informacion {
-      top: 4rem;
+      
+      top: 29rem;
       width: 80%;
   }
 
   .botones {
+     
       top: 30rem;
       width: 80%;
       flex-direction: row;
@@ -306,14 +308,14 @@
   }
 
   .boton__encriptar, .boton__desencriptar {
-      width: auto;
+      width: 50%;
   }
 
   .resultado {
       width: 80%;
       height: 30%;
-      left: auto;
-      top: auto;
+      left: 50%;
+      top: 65%;
       transform: none;
   }
 
@@ -321,17 +323,6 @@
       font-size: 1.2rem;
   }
 
-  .boton__copiar {
-    top:64%;
-  }
-
-  .boton__copiar:hover {
-    margin: 0.5%;
-    width: 50%;
-    padding: 3%;
-  }
-
- 
   .resultado img{
     display: none;
     
