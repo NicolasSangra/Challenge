@@ -69,7 +69,7 @@ function desencriptar() {
         muñeco.src = "/assets/Muñeco.png";
         titulo__resultado.textContent = "Ningún mensaje fue encontrado";
         parrafo.textContent = "Ingresa el texto que deseas encriptar o desencriptar";
-        swal("¡Lo siento!", "Debes ingresar el texto encriptado en minuscula y sin acento.", "warning");
+        swal("¡Lo siento!", "Debes ingresar el texto en minuscula y sin acento.", "warning");
       }
   }
 
