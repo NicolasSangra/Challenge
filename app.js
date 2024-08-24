@@ -5,7 +5,7 @@ function encriptar() {
     let muñeco = document.getElementById("muñeco");
 
     if (/[A-ZÁÉÍÓÚÜáéíóúü]/.test(texto)) {
-      swal("¡Lo siento!", "Debes modificar el texto. Tiene que ser en minúscula y sin acento.", "warning");
+      swal("¡Lo siento!", "Modifica el texto. Debe ser en minúscula y sin acento.", "warning");
       return;
     }
   
@@ -43,7 +43,7 @@ function desencriptar() {
 
      
       if (/[A-ZÁÉÍÓÚÜáéíóúü]/.test(texto)) {
-      swal("¡Lo siento!", "Debes modificar el texto. Tiene que ser en minúscula y sin acento.", "warning");
+      swal("¡Lo siento!", "Modifica el texto. Debe ser en minúscula y sin acento.", "warning");
       return;
     }
   
