@@ -20,8 +20,10 @@
   
   .container {
     position: relative;
-    width: 90rem;
-    height: 64rem;
+    width: 100vW;
+    max-width: 90rem;
+    height: 100vh;
+    max-height: 64rem;
     background: var(--color-fondo);
   }
 
