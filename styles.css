@@ -326,8 +326,7 @@
  }
     
   .resultado img {
-    width:50%;
-    height:50%;
+    display:none;
   }
 
 .resultado__texto {
