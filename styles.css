@@ -332,23 +332,16 @@
 
 .resultado__texto {
  width: 80%;
- font-size: 1.2rem;
+ font-size: 1rem;
  text-align:start;
 }
- .mensaje__resultado p {
-     display:none;
- }
-
+ 
   .boton__copiar {
     width:50%;
     top:64%;
   }
 
   .boton__copiar:hover {
-    display:none;
-  }
-
-  .resultado img {
     display:none;
   }
 
