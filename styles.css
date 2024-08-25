@@ -317,7 +317,7 @@
   .resultado {
  position: relative; 
  display: flex;
- direction-flex: start;
+ flex-direction: initial;
  justify-content: center;
  width: 80%;
  height: 30%;
