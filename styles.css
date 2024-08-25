@@ -315,11 +315,11 @@
    
 
   .resultado {
- position: relative; /* Asegura que el elemento interno se posicione respecto a este contenedor */
+ position: relative; 
  display: flex;
  justify-content: center;
  width: 80%;
- height: 30%;
+ height: 35%;
  left: 10%;
  top: 65%;
  transform: none;
