@@ -301,13 +301,13 @@
 
   .informacion {
       left: 10%;
-      top: 22rem;
+      top: 24rem;
       width: 80%;
   }
 
   .botones {
       left: 10%;
-      top: 23rem;
+      top: 25rem;
       width: 80%;
       flex-direction: row;
       align-items: center;
@@ -337,8 +337,11 @@
   }
 
   .resultado__texto {
-      
-      font-size: 1.2rem;
+    width: 80%;
+    height: 80%;
+    margin: 10%;
+    font-size: 1.2rem;
+    text_aligne:start;
   }
 
   .boton__copiar {
