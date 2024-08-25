@@ -335,10 +335,12 @@
   }
 
   .resultado__texto {
+      top: 40%;
       font-size: 1.2rem;
   }
 
   .boton__copiar {
+    widht:80%;
     top:64%;
   }
 
