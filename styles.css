@@ -329,14 +329,11 @@
 .resultado img {
     display:none;
   }
-./assets/Muñeco.png {
-    display:none;
-}
 
 .resultado__texto {
  width: 80%;
  font-size: 1.2rem;
- text-align:start;
+
 }
 
  .mensaje__resultado p {
