@@ -326,7 +326,8 @@
  transform: none;
  }
     
-  .resultado img {
+  .resultado img,
+  .muñeco{
     display:none;
   }
 
@@ -344,6 +345,7 @@
   .boton__copiar:hover {
     display:none;
   }
+    
 
  
 }
