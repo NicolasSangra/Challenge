@@ -322,6 +322,7 @@
  height: 30%;
  left: 10%;
  top: 65%;
+ z-index:1;
  transform: none;
  }
     
