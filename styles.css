@@ -326,7 +326,8 @@
  }
     
   .resultado img {
-    display:none;
+    width:50%;
+    height:50%;
   }
 
 .resultado__texto {
@@ -335,7 +336,6 @@
  margin: 10%;
  font-size: 1.2rem;
  text-align:start;
- z-index: 2; 
 }
 
   .boton__copiar {
