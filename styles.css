@@ -317,17 +317,18 @@
       width: 50%;
       
   }
+   .boton__encriptar:hover {
+     display:none;
+    }
      
-  .boton__encriptar, .boton__desencriptar: hover {
+   .boton__desencriptar: hover {
       display:none;
       
   }
 
   .resultado {
       display:flex;
-      flex-direction:column;
-      justify-content: space-between;
-      align-items:center;
+      justify-content:center;
       width: 80%;
       height: 30%;
       left: 10%;
@@ -341,7 +342,7 @@
   }
 
   .boton__copiar {
-    widht:60%;
+    widht:50%;
     top:64%;
   }
 
