@@ -285,7 +285,7 @@
       height: 100vh;
   }
   
-  .logo{
+  .logo {
     Width: 3.75rem;
     Height: 1.5rem;
     Top: 1rem;
@@ -325,23 +325,18 @@
  transform: none;
  }
     
-  .resultado img{
+  .resultado img {
     display:none;
   }
 
- .resultado__texto {
- position: absolute; /* Coloca el texto sobre el cuadrante resultado */
- top:-1rem; /* Ajusta la posición vertical según sea necesario */
- left:-1rem; /* Ajusta la posición horizontal según sea necesario */
- width: 80%; 
- height:auto; 
- margin-top:0.5rem;/* Agrega un margen superior para separarlo del borde del cuadrante*/
- font-size:1.2rem;
+.resultado__texto {
+ width: 80%;
+ height: 80%;
+ margin: 10%;
+ font-size: 1.2rem;
  text-align:start;
- z-index:2;
-     
-
- }
+ z-index: 2; 
+}
 
   .boton__copiar {
     widht:50%;
