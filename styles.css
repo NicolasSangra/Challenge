@@ -322,7 +322,6 @@
  height: 30%;
  left: 10%;
  top: 65%;
- z-index:1;
  transform: none;
  }
     
@@ -338,7 +337,9 @@
  height:auto; 
  margin-top:0.5rem;/* Agrega un margen superior para separarlo del borde del cuadrante*/
  font-size:1.2rem;
- text_align:start;
+ text-align:start;
+ z-index:2;
+     
 
  }
 
