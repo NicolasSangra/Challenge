@@ -326,6 +326,7 @@
   .resultado {
       display:flex;
       flex-direction:column;
+      justify-content: space-between;
       align-items:center;
       width: 80%;
       height: 30%;
@@ -335,12 +336,12 @@
   }
 
   .resultado__texto {
-      top: 40%;
+      
       font-size: 1.2rem;
   }
 
   .boton__copiar {
-    widht:80%;
+    widht:60%;
     top:64%;
   }
 
