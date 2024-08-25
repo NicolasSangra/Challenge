@@ -335,6 +335,9 @@
  font-size: 1.2rem;
  text-align:start;
 }
+ .mensaje__resultado p {
+     display:none;
+ }
 
   .boton__copiar {
     widht:50%;
