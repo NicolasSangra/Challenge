@@ -324,14 +324,18 @@
  top: 65%;
  transform: none;
  }
+    
+  .resultado img{
+    display:none;
+  }
 
  .resultado__texto {
  position: absolute; /* Coloca el texto sobre el cuadrante resultado */
- top:-20rem; /* Ajusta la posición vertical según sea necesario */
+ top:-1rem; /* Ajusta la posición vertical según sea necesario */
  left:-1rem; /* Ajusta la posición horizontal según sea necesario */
  width: 80%; 
  height:auto; 
- margin-top:.5rem;/* Agrega un margen superior para separarlo del borde del cuadrante*/
+ margin-top:0.5rem;/* Agrega un margen superior para separarlo del borde del cuadrante*/
  font-size:1.2rem;
  text_align:start;
 
@@ -347,9 +351,6 @@
   }
 
  
-  .resultado img{
-    display:none;
-  }
 }
      
 
