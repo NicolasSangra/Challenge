@@ -276,7 +276,7 @@
   
 
 @media (max-width: 480px) {
-    .header{
+  .header{
       display:none;
     }
     
@@ -314,7 +314,7 @@
   }
    
 
-  .resultado {
+ .resultado {
  position: relative; 
  display: flex;
  flex-direction: initial;
@@ -326,13 +326,13 @@
  transform: none;
  }
     
-  .resultado img,
-  .muñeco{
+.muñeco{
     display:none;
   }
 
 .resultado__texto {
  width: 80%;
+ top: 67%;
  font-size: 1rem;
  text-align:start;
 }
