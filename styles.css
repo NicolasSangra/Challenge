@@ -312,11 +312,6 @@
       flex-direction: row;
       align-items: center;
   }
-
-  .boton__encriptar, .boton__desencriptar {
-      width: 50%;
-      
-  }
    
 
   .resultado {
