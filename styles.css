@@ -326,18 +326,24 @@
  transform: none;
  }
     
-.muñeco{
+.resultado img {
     display:none;
   }
+./assets/Muñeco.png {
+    display:none;
+}
 
 .resultado__texto {
  width: 80%;
- top: 67%;
- font-size: 1rem;
+ font-size: 1.2rem;
  text-align:start;
 }
- 
-  .boton__copiar {
+
+ .mensaje__resultado p {
+     display:none;
+ }
+    
+ .boton__copiar {
     width:50%;
     top:64%;
   }
