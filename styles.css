@@ -317,14 +317,7 @@
       width: 50%;
       
   }
-   .boton__encriptar:hover {
-     display:none;
-    }
-     
-   .boton__desencriptar: hover {
-      display:none;
-      
-  }
+   
 
   .resultado {
       display:flex;
